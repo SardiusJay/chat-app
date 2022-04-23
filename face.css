@@ -93,7 +93,7 @@ img{
     color: var(--color-gray);
 }
 
-/*.................NAV BAR...........*/
+/*NAV BAR*/
 
 
 nav{
@@ -134,7 +134,7 @@ nav .create{
     gap: 2rem;
 }
 
-/*----------------MAIN-----------------*/
+/*MAIN*/
 
 main{
     position: relative;
@@ -147,7 +147,7 @@ main .container{
     position: relative;
 }
 
-/*-------------------LEFT-----------------------------*/
+/*LEFT*/
 main .container .left{
     height: max-content;
     position: sticky;
@@ -164,7 +164,7 @@ main .container .left .profile{
     width: 100%;
 }
 
-/*----------------sidebar----------------*/
+/*sidebar*/
 
 .left .sidebar{
     margin-top: 1rem;
@@ -243,7 +243,7 @@ main .container .left .profile{
  padding: 1rem 0;
 }
 
-/*----------------NOTIFICATION POPUP-----------*/
+/*NOTIFICATION POPUP*/
 
 .left .notifications-popup{
     position: absolute;
@@ -282,7 +282,7 @@ main .container .left .profile{
 
 }
 
-/* --------------------------------MIDDLE--------------*/
+/* MIDDLE*/
 
 .middle .stories {
     display: flex;
@@ -346,7 +346,7 @@ main .container .left .profile{
 }
 
 
-/* --------------------------------CREATE POST------------------*/
+/*CREATE POST*/
 
 .middle .create-post{
     width: 100%;
@@ -368,7 +368,7 @@ main .container .left .profile{
     margin-right: 1rem;
 }
 
-/* --------------------------------feeds-----------------*/
+/*feeds*/
 .middle .feeds .feed{
     background: var(--color-white);
     border-radius: var( --card-border-radius);
@@ -488,10 +488,6 @@ main .container .right{
     overflow: visible;
 }
 
-.right .profile-photo img{
-
-   
-}
 .right .messages .message:last-child{
     margin: 0;
 }
